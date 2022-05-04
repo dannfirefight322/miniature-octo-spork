@@ -72,6 +72,20 @@ body {
     background-size: cover;
 }
 
+.parallax-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    width: 100%;
+    height: 100vh;
+}
+
+.parallax-2:nth-child(1) {
+    background-image: url(./images/modal/personal/Canon_T5.jpeg);
+    background-size: cover;
+}
+
 .nav {
     position: fixed;
     top: 14px;
@@ -169,6 +183,18 @@ body {
 .socials {
     margin-left: auto;
     margin-right: auto;
+}
+
+.gallery-1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.gallery-1-1 {
+    width: 29%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
 }
 
 
