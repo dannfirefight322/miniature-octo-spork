@@ -54,21 +54,10 @@ body {
     to{border-right-color: transparent;}
   }
 
-  .title-animation-2{
-    animation: typewriter 4s steps(44) 1s 1 normal both,
-               blinkTextCursor 500ms steps(44) infinite normal;
-  }
-  @keyframes typewriter{
-    from{width: 1.1em;}
-    to{width: 3.3em;}
-  }
-  @keyframes blinkTextCursor{
-    from{border-right-color: rgba(255,255,255,.75);}
-    to{border-right-color: transparent;}
-  }
+ 
   
 .parallax:nth-child(1) {
-    background-image: url(images/IMG_4676.JPG);
+    background-image: url(images/IMG_4676-a.JPG);
     background-size: cover;
 }
 
