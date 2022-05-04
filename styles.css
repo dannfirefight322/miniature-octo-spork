@@ -1,0 +1,209 @@
+:root{
+    --lightBlue: #00ADB5;
+    --darkGrey: #393E46;
+    --black: #000000;
+    --titleFont: 'Dancing Script', cursive;font-family: 'Dancing Script', cursive;
+    --secondaryFont:  'Cormorant Garamond', serif;
+}
+/*
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+*/
+body {
+    background-color: var(--lightBlue);
+}
+
+.parallax{
+    display: flex;
+    flex-direction: column;
+}
+
+.parallax {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    width: 100%;
+    height: 100vh;
+}
+
+.title {
+    font-size: 60px;
+    background: lightgrey;
+    color: var(--lightBlue);
+    font-family: var(--titleFont);
+    padding: 8px 24px;
+    border-radius: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+}
+.title-animation{
+    animation: typewriter 4s steps(44) 1s 1 normal both,
+               blinkTextCursor 500ms steps(44) infinite normal;
+  }
+  @keyframes typewriter{
+    from{width: 1.1em;}
+    to{width: 8.3em;}
+  }
+  @keyframes blinkTextCursor{
+    from{border-right-color: rgba(255,255,255,.75);}
+    to{border-right-color: transparent;}
+  }
+
+  .title-animation-2{
+    animation: typewriter 4s steps(44) 1s 1 normal both,
+               blinkTextCursor 500ms steps(44) infinite normal;
+  }
+  @keyframes typewriter{
+    from{width: 1.1em;}
+    to{width: 3.3em;}
+  }
+  @keyframes blinkTextCursor{
+    from{border-right-color: rgba(255,255,255,.75);}
+    to{border-right-color: transparent;}
+  }
+  
+.parallax:nth-child(1) {
+    background-image: url(images/IMG_4676.JPG);
+    background-size: cover;
+}
+
+.nav {
+    position: fixed;
+    top: 14px;
+    right: 2%;
+    background-color: lightgray;
+    border-radius: 16px;
+}
+
+.nav-link {
+    font-size: 35px;
+    margin-left: 2px;
+    margin-right: 2px;
+    color: var(--lightBlue);
+    font-family: var(--secondaryFont);
+}
+
+.nav-link:hover {
+    color: darkgray;
+}
+
+.jumbotron {
+    background-color: var(--lightBlue);
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.me {
+    width: 30%;
+    margin-left: 45px;
+    border-radius: 16px;
+}
+
+.aboutme {
+    margin-left: 35px;
+}
+
+.aboutme-paragraph {
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 27px;
+    font-weight: bold;
+    line-height: 50px;
+    font-family: var(--secondaryFont);
+    
+}
+
+.my-4 {
+    width: 80%;
+    margin: auto;
+    margin-right: auto;
+}
+
+.lead {
+    font-size: 40px;
+    margin-left: 120px;
+    font-family: var(--secondaryFont);
+    font-weight: bold;
+}
+
+.footer-break {
+    color: black;
+    border-top: 2px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer {
+    background-color: var(--black);
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+
+.contact {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.number, .phone, .email, .socialsBreak, .socials, .socials-links {
+    color: var(--lightBlue);
+    font-family: var(--secondaryFont);
+    font-weight: bold;
+}
+
+.social, .number {
+    font-size: 19px;
+}
+
+.socials {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* mobile responsiveness */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+.parallax {
+    width: 100%;
+}
+
+.title {
+    font-size: 30px;
+}
+.jumbotron {
+    display: flex;
+    flex-direction: column;
+}
+.me {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+}
+
+.lead {
+    margin-left: 0;
+    text-align: center;
+    font-size: 35px;
+}
+
+.aboutme-paragraph {
+    font-size: 18px;
+    line-height: normal;
+}
+
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/*@media only screen and (min-width: 600px) {...}*/
