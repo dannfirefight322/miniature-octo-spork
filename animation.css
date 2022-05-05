@@ -1,0 +1,23 @@
+.gallery-title {
+    font-size: 60px;
+    background: lightgrey;
+    color: var(--lightBlue);
+    font-family: var(--titleFont);
+    padding: 8px 24px;
+    border-radius: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+}
+.gallery-animation{
+    animation: typewriter 4s steps(44) 1s 1 normal both,
+               blinkTextCursor 500ms steps(44) infinite normal;
+  }
+  @keyframes typewriter{
+    from{width: 1.1em;}
+    to{width: 3.3em;}
+  }
+  @keyframes blinkTextCursor{
+    from{border-right-color: rgba(255,255,255,.75);}
+    to{border-right-color: transparent;}
+  }

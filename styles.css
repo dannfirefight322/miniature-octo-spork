@@ -13,7 +13,7 @@
 }
 */
 body {
-    background-color: var(--lightBlue);
+    background-color: var(--darkGrey);
 }
 
 .parallax{
@@ -54,9 +54,7 @@ body {
     to{border-right-color: transparent;}
   }
 
- 
-  
-.parallax:nth-child(1) {
+  .parallax:nth-child(1) {
     background-image: url(images/IMG_4676-a.JPG);
     background-size: cover;
 }
@@ -96,7 +94,7 @@ body {
 }
 
 .jumbotron {
-    background-color: var(--lightBlue);
+    background-color: var(--darkGrey);
     display: flex;
     flex-direction: row;
     margin-top: 30px;
@@ -115,6 +113,7 @@ body {
 
 .aboutme-paragraph {
     padding-left: 25px;
+    color: var(--lightBlue);
     padding-right: 25px;
     font-size: 27px;
     font-weight: bold;
@@ -127,6 +126,7 @@ body {
     width: 80%;
     margin: auto;
     margin-right: auto;
+    color: var(--black);
 }
 
 .lead {
@@ -134,6 +134,7 @@ body {
     margin-left: 120px;
     font-family: var(--secondaryFont);
     font-weight: bold;
+    color: var(--lightBlue);
 }
 
 .footer-break {
@@ -219,6 +220,34 @@ body {
     line-height: normal;
 }
 
+.footer {
+    display: flex;
+    flex-direction: column;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+.number-1 {
+    text-align: center;
+}
+
+.footer {
+    width: 100%;
+}
+.socials-links-a {
+    text-align: center;
+}
+
+.gallery-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery-1-1 {
+    width: 90%;
+    border-radius: 16px;
+}
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 /*@media only screen and (min-width: 600px) {...}*/
