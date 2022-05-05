@@ -175,23 +175,77 @@ body {
     margin-right: auto;
 }
 
-.gallery-1 {
+.mainGallery {
     display: flex;
     flex-direction: row;
+    justify-content:center;
+    margin-top: 20px;
 }
 
-.gallery-1-1 {
+.test {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.themeparks:nth-child(1) {
+    background-image: url(images/gallery/Cinderella\ castle3.jpeg);
+    background-size: cover;
     width: 29%;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.portraits:nth-child(2) {
+    background-image: url(images/modal/portraits/Sam.jpeg);
+    background-size: cover;
+    width: 29%;
+    margin-left: 15px;
+    margin-right: 15px; 
+}
+
+.wildlife:nth-child(3) {
+    background-image: url(images/gallery/Turtle.jpeg);
+    background-size: cover;
+    width: 29%;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.themeparks, .portraits, .wildlife {
+    height: 800px;
+    border-radius: 16px;
+    
+}
+
+h3 {
+    font-size: 35px;
+    background: lightgrey;
+    color: var(--lightBlue);
+    font-family: var(--titleFont);
+    padding: 8px 24px;
+    border-radius: 16px;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    width:40%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 25px;
 }
-
 
 /* mobile responsiveness */
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+.nav {
+    width: 45px;
+    height:40px;
+    margin-right: 300px;
+}
+.navbar-toggler-icon {
+    transform: rotate(90deg);
+    position: relative;
+    right: 18px;
+    top: -10px;
+}
 .parallax {
     width: 100%;
 }
@@ -238,15 +292,32 @@ body {
 .socials-links-a {
     text-align: center;
 }
-
-.gallery-1 {
+.mainGallery{
     display: flex;
     flex-direction: column;
 }
-
-.gallery-1-1 {
+.themeparks:nth-child(1) {
     width: 90%;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.portraits:nth-child(2) {
+    width: 90%;
+    margin-left: 15px;
+    margin-right: 15px; 
+}
+
+.wildlife:nth-child(3) {
+    width: 90%;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.themeparks, .portraits, .wildlife {
+    height: 450px;
     border-radius: 16px;
+}
+h3 {
+    width:60%;
 }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
