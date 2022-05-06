@@ -180,6 +180,7 @@ body {
     flex-direction: row;
     justify-content:center;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .test {
@@ -194,13 +195,17 @@ body {
     width: 29%;
     margin-left: 15px;
     margin-right: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .portraits:nth-child(2) {
     background-image: url(images/modal/portraits/Sam.jpeg);
     background-size: cover;
     width: 29%;
     margin-left: 15px;
-    margin-right: 15px; 
+    margin-right: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px; 
 }
 
 .wildlife:nth-child(3) {
@@ -209,8 +214,41 @@ body {
     width: 29%;
     margin-left: 15px;
     margin-right: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
-.themeparks, .portraits, .wildlife {
+
+.cars:nth-child(1) {
+    background-image: url(images/gallery/Truck.jpeg);
+    background-size: cover;
+    width: 29%;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.macro:nth-child(2) {
+    background-image: url(images/gallery/Ladybug.jpeg);
+    background-size: cover;
+    width: 29%;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.personal:nth-child(3) {
+    background-image: url(images/modal/personal/alabama.jpg);
+    background-size: cover;
+    width: 29%;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.themeparks, .portraits, .wildlife, .cars, .macro, .personal {
     height: 800px;
     border-radius: 16px;
     
@@ -229,6 +267,13 @@ h3 {
     width:40%;
     margin-left: auto;
     margin-right: auto;
+}
+
+.gallery-links {
+    text-decoration: none;
+    display:block;
+    width: 100%;
+    height: 100%;
 }
 
 /* mobile responsiveness */
@@ -312,7 +357,25 @@ h3 {
     margin-left: 15px;
     margin-right: 15px;
 }
-.themeparks, .portraits, .wildlife {
+
+.cars:nth-child(1) {
+    width: 90%;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.macro:nth-child(2) {
+    width: 90%;
+    margin-left: 15px;
+    margin-right: 15px; 
+}
+
+.personal:nth-child(3) {
+    width: 90%;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.themeparks, .portraits, .wildlife, .cars, .macro, .personal {
     height: 450px;
     border-radius: 16px;
 }
