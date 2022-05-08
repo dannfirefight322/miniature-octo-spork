@@ -21,7 +21,7 @@ body {
     flex-direction: column;
 }
 
-.parallax {
+.parallax, .parallax-2, .parallax-3{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,7 +30,7 @@ body {
     height: 100vh;
 }
 
-.title {
+.title, .themepark{
     font-size: 60px;
     background: lightgrey;
     color: var(--lightBlue);
@@ -57,15 +57,6 @@ body {
   .parallax:nth-child(1) {
     background-image: url(images/IMG_4676-a.JPG);
     background-size: cover;
-}
-
-.parallax-2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
-    width: 100%;
-    height: 100vh;
 }
 
 .parallax-2:nth-child(1) {
@@ -276,6 +267,38 @@ h3 {
     height: 100%;
 }
 
+/* themeparks */
+
+.parallax-3 {
+    background-image: url(../images/modal/themeparks/islands.jpg);
+    background-size: cover;
+}
+
+.themepark-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.themepark-row-1{
+    display: flex;
+    flex-direction: row;
+}
+
+.themepark-image {
+    display: flex;
+    height: 400px;
+    margin: 9px;
+    border-radius: 16px;
+}
+
+.themepark-image-1{
+    display: flex;
+    width:49%;
+    margin: 9px;
+    border-radius: 16px;
+}
+
 /* mobile responsiveness */
 
 /* Extra small devices (phones, 600px and down) */
@@ -334,6 +357,9 @@ h3 {
 .footer {
     width: 100%;
 }
+.contact{
+    margin-top: 15px;
+}
 .socials-links-a {
     text-align: center;
 }
@@ -381,6 +407,22 @@ h3 {
 }
 h3 {
     width:60%;
+}
+/*themeparks*/
+
+.themepark-gallery{
+    display: flex;
+    flex-direction: column;
+}
+.themepark-image {
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.themepark-row-1{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
 }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
