@@ -287,14 +287,14 @@ h3 {
 
 .themepark-image {
     display: flex;
-    height: 400px;
+    width: 23vw;
     margin: 9px;
     border-radius: 16px;
 }
 
 .themepark-image-1{
     display: flex;
-    width:49%;
+    width: 50vw;
     margin: 9px;
     border-radius: 16px;
 }
@@ -410,12 +410,8 @@ h3 {
 }
 /*themeparks*/
 
-.themepark-gallery{
-    display: flex;
-    flex-direction: column;
-}
 .themepark-image {
-    width:90%;
+    width:100%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -423,6 +419,8 @@ h3 {
     display: flex;
     flex-direction: column;
     width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
