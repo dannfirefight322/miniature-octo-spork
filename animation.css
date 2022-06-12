@@ -1,3 +1,4 @@
+/*
 .gallery-title {
     font-size: 60px;
     background: lightgrey;
@@ -9,7 +10,7 @@
     overflow: hidden;
     transform: translateY(-50%);
 }
-/*
+
 .gallery-animation{
     animation: typewriter 4s steps(44) 1s 1 normal both,
                blinkTextCursor 500ms steps(44) infinite normal;
