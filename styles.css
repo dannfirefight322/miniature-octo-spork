@@ -270,8 +270,8 @@ h3 {
 
 /* themeparks */
 
-.parallax-3 {
-    background-image: url(../images/modal/themeparks/islands.jpg);
+.parallax-3:nth-child(1) {
+    background-image: url(./images/modal/themeparks/islands.jpg);
     background-size: cover;
 }
 .gallery-images{
@@ -286,28 +286,28 @@ h3 {
     border-radius: 15px;
 }
 /*portraits*/
-.parallax-4 {
-    background-image: url(../images/modal/portraits/Moo.jpeg);
+.parallax-4:nth-child(1) {
+    background-image: url(./images/modal/portraits/Moo.jpeg);
     background-size: cover;
 }
 /*wildlife*/
-.parallax-5 {
-    background-image: url(../images/modal/wildlife/Jaguar.jpg);
+.parallax-5:nth-child(1) {
+    background-image: url(./images/modal/wildlife/Jaguar.jpg);
     background-size: cover;
 }
 /*carsandtrucks*/
-.parallax-6 {
-    background-image: url(../images/modal/cars/truck3.JPG);
+.parallax-6:nth-child(1) {
+    background-image: url(./images/modal/cars/truck3.JPG);
     background-size: cover;
 }
 /*macro*/
-.parallax-7 {
-    background-image: url(../images/modal/Macro/ladybug2.JPG);
+.parallax-7:nth-child(1) {
+    background-image: url(./images/modal/Macro/ladybug2.JPG);
     background-size: cover;
 }
 /*personal*/
-.parallax-8 {
-    background-image: url(../images/modal/personal/ronald.JPG);
+.parallax-8:nth-child(1) {
+    background-image: url(./images/modal/personal/ronald.JPG);
     background-size: cover;
 }
 /* mobile responsiveness */
