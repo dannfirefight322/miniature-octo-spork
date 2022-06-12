@@ -325,7 +325,7 @@ h3 {
     right: 18px;
     top: -10px;
 }
-.parallax {
+.parallax, .parallax-2, .parallax-3, .parallax-4, .parallax-5, .parallax-6, .parallax-7, .parallax-8 {
     width: 100%;
 }
 
