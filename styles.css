@@ -21,7 +21,7 @@ body {
     flex-direction: column;
 }
 
-.parallax, .parallax-2, .parallax-3{
+.parallax, .parallax-2, .parallax-3, .parallax-4, .parallax-5, .parallax-6, .parallax-7, .parallax-8{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,7 +30,7 @@ body {
     height: 100vh;
 }
 
-.title, .themepark{
+.title, .themepark, .portrait, .wild-life{
     font-size: 60px;
     background: lightgrey;
     color: var(--lightBlue);
@@ -41,6 +41,7 @@ body {
     overflow: hidden;
     transform: translateY(-50%);
 }
+
 .title-animation{
     animation: typewriter 4s steps(44) 1s 1 normal both,
                blinkTextCursor 500ms steps(44) infinite normal;
@@ -273,32 +274,42 @@ h3 {
     background-image: url(../images/modal/themeparks/islands.jpg);
     background-size: cover;
 }
-
-.themepark-gallery {
+.gallery-images{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    
 }
-
-.themepark-row-1{
-    display: flex;
-    flex-direction: row;
+.stock-image{
+    height: 450px;
+    margin: 15px;
+    border-radius: 15px;
 }
-
-.themepark-image {
-    display: flex;
-    width: 23vw;
-    margin: 9px;
-    border-radius: 16px;
+/*portraits*/
+.parallax-4 {
+    background-image: url(../images/modal/portraits/Moo.jpeg);
+    background-size: cover;
 }
-
-.themepark-image-1{
-    display: flex;
-    width: 50vw;
-    margin: 9px;
-    border-radius: 16px;
+/*wildlife*/
+.parallax-5 {
+    background-image: url(../images/modal/wildlife/Jaguar.jpg);
+    background-size: cover;
 }
-
+/*carsandtrucks*/
+.parallax-6 {
+    background-image: url(../images/modal/cars/truck3.JPG);
+    background-size: cover;
+}
+/*macro*/
+.parallax-7 {
+    background-image: url(../images/modal/Macro/ladybug2.JPG);
+    background-size: cover;
+}
+/*personal*/
+.parallax-8 {
+    background-image: url(../images/modal/personal/ronald.JPG);
+    background-size: cover;
+}
 /* mobile responsiveness */
 
 /* Extra small devices (phones, 600px and down) */
@@ -421,6 +432,18 @@ h3 {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+}
+.gallery-images{
+    display: flex;
+    flex-direction: column;
+}
+.stock-image{
+    width: 90%;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    height: auto;
 }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
