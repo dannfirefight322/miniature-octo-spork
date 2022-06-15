@@ -166,7 +166,14 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
-
+.logo-img{
+    height: 140px;
+    position: relative;
+    right: 40px;
+}
+.logo-mobile {
+    display: none;
+}
 .mainGallery {
     display: flex;
     flex-direction: row;
@@ -371,8 +378,20 @@ h3 {
 .contact{
     margin-top: 15px;
 }
+.social {
+   text-align: center;
+}
 .socials-links-a {
     text-align: center;
+}
+.logo-img{
+    display: none;
+}
+.logo-mobile{
+    display: block;
+}
+.logo-img-mobile {
+    height: 125px;
 }
 .mainGallery{
     display: flex;
